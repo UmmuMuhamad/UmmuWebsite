@@ -1,0 +1,169 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Ummu Page</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta content="Author" name="WebThemez">
+  <!-- Favicons -->
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Mogra' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href=" {{ url_for('static', filename='lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href=" {{ url_for('static', filename='lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/animate/animate.min.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/magnific-popup/magnific-popup.css') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+  
+
+  <!-- Main Stylesheet File -->
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"> 
+</head>
+
+
+<body id="body">
+
+
+  <!--==========================
+    Header
+  ============================-->
+ <header id="header">
+    <div class="container">
+     <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto"><span>U</span>mmu</a></h1> 
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About Me</a></li>
+          <li class="menu-active"><a href="{{ url_for('journey') }}">My Journey</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+<!--==========================
+    Page Banner Section
+  ============================-->
+  <section id="innerBanner"> 
+    <div class="inner-content">
+      <h2><span>My Journey</span><br>Here is my learning journey!</h2>
+      <div> 
+      </div>
+    </div> 
+  </section><!-- #Page Banner -->
+
+  <main id="main">
+
+    <!--==========================
+      Journey Section
+    ============================-->
+    <section id="journey" class="wow fadeInUp">
+       
+         <section class="work">
+                <div class="image-area left">
+                    <img src="{{ url_for('static', filename='img/smaskm.jpg') }}" alt="smaskm"> 
+                </div>  
+                <div class="text-box">
+                    <div class="text-box-content">
+                        <h3>2010~2011</h3>
+                        <h2>ASSAYIDAH KHADIJAH ARABIC SECONDARY SCHOOL</h2>
+                        <h3> <em>(SMASKM)</em></h3>
+                    </div>  
+                </div>  
+            </section>  
+
+            <section class="work">
+                <div class="image-area right">
+                    <img src="{{ url_for('static', filename='img/kmm.jpg') }}" alt="kmm"> 
+                </div>  
+                <div class="text-box">
+                    <div class="text-box-content">
+                        <h3>2011~2013</h3>
+                        <h2>MALACCA MATRICULATION COLLEGE</h2>
+                        <h3> <em>(KMM)</em></h3>
+                    </div>  
+                </div>  
+            </section>  
+
+            <section class="work">
+                <div class="image-area left">
+                    <img src="{{ url_for('static', filename='img/fst.jpg') }}" alt="fst"> 
+                </div>  
+                <div class="text-box">
+                    <div class="text-box-content">
+                        <h3>2013~2018</h3>
+                        <h2> NATIONAL UNIVERSITY OF MALAYSIA</h2>
+                        <h3> <em>(UKM)</em></h3>
+                    </div>  
+                </div>  
+            </section>  
+        
+            <section class="work">
+                <div class="image-area right">
+                    <img src="{{ url_for('static',     filename='img/kidocode.jpg') }}" alt="kidocode"> 
+                </div>  
+                <div class="text-box">
+                    <div class="text-box-content">
+                        <br>
+                        <br>
+                        <h3>2018~present</h3>
+                        <h2>KIDOCODE</h2>
+                        
+                    </div>  
+                </div>  
+            </section> 
+        
+
+      
+    </section><!-- #about -->
+ 
+   
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+ <footer id="footer">
+   <div class="container">
+      <div class="copyright">
+        Copyright 2019 © All rights reserved.  
+      </div> 
+      <div class="credits"> 
+        Design & Developed by <a href="#">UmmuAmirah</a> 
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript  -->
+  <link href=" {{ url_for('static', filename='lib/jquery/jquery.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/jquery/jquery-migrate.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/bootstrap/js/bootstrap.bundle.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/easing/easing.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/superfish/hoverIntent.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/superfish/superfish.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/wow/wow.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/owlcarousel/owl.carousel.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/magnific-popup/magnific-popup.min.js') }}" rel="stylesheet">
+  <link href=" {{ url_for('static', filename='lib/sticky/sticky.js') }}" rel="stylesheet">
+ 
+  <script src="js/main.js"></script>
+
+</body>
+</html>
